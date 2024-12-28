@@ -1,0 +1,15 @@
+{
+  "name": "@solardancer/test",
+  "version": "0.1.7",
+  "license": "MIT",
+  "exports": "./src/assert.ts",
+  "publish": {
+    "include": [
+      "src",
+      "README.md"
+    ],
+    "exclude": [
+      "src/**/*.test.ts"
+    ]
+  }
+}

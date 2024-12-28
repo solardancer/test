@@ -1,0 +1,14 @@
+{
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 120
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "package-lock.json"
+  ],
+  "tasks": {
+    "check": "deno check **/*.ts"
+  }
+}
