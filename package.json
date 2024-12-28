@@ -4,14 +4,17 @@
   "description": "A simple assertion function",
   "license": "MIT",
   "author": "Quentin Adam",
-  "repository": "github:solardancer/test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solardancer/test.git"
+  },
   "type": "module",
   "exports": "./dist/assert.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf ./dist && tsc -b"
+    "build": "rm -rf dist && tsc -b"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
