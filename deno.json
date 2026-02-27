@@ -1,8 +1,13 @@
 {
   "name": "@solardancer/test",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A test library",
   "license": "MIT",
+  "author": "Quentin Adam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solardancer/test.git"
+  },
   "exports": "./src/assert.ts",
   "fmt": {
     "singleQuote": true,
