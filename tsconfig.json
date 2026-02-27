@@ -8,6 +8,8 @@
     "rewriteRelativeImportExtensions": true,
     "noUncheckedSideEffectImports": true,
     "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
     "outDir": "dist",
     "noEmitOnError": true,
     "esModuleInterop": true,
@@ -19,11 +21,11 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
     "skipDefaultLibCheck": false,
     "skipLibCheck": false
   },
+  "include": ["src"],
   "exclude": ["**/*.test.ts"]
 }

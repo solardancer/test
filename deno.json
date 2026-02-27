@@ -1,14 +1,14 @@
 {
+  "name": "@solardancer/test",
+  "version": "0.1.8",
+  "license": "MIT",
+  "exports": "./src/assert.ts",
   "fmt": {
     "singleQuote": true,
     "lineWidth": 120
   },
-  "exclude": [
-    "dist",
-    "node_modules",
-    "package-lock.json"
-  ],
-  "tasks": {
-    "check": "deno check **/*.ts"
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true
   }
 }
