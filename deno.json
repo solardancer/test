@@ -1,6 +1,7 @@
 {
   "name": "@solardancer/test",
   "version": "0.1.8",
+  "description": "A test library",
   "license": "MIT",
   "exports": "./src/assert.ts",
   "fmt": {
