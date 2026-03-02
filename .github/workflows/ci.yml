@@ -7,5 +7,8 @@ on:
 jobs:
   ci-and-publish:
     uses: quentinadam/deno-ci-workflow/.github/workflows/ci-publish.yml@v1
+    permissions:
+      contents: write
+      id-token: write
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
