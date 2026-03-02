@@ -5,7 +5,7 @@ on:
       - main
 
 jobs:
-  ci-and-publish:
+  ci-publish:
     uses: quentinadam/deno-ci-workflow/.github/workflows/ci-publish.yml@v1
     permissions:
       contents: write
